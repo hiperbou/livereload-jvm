@@ -489,7 +489,7 @@ Options.extract = function(document) {
           return;
         }
       }
-      if (options.liveCSS) {
+      /*if (options.liveCSS) {
         if (path.match(/\.css$/i)) {
           if (this.reloadStylesheet(path)) {
             return;
@@ -501,7 +501,7 @@ Options.extract = function(document) {
           this.reloadImages(path);
           return;
         }
-      }
+      }*/
       return this.reloadPage();
     };
 
