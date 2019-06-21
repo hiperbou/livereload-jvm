@@ -51,7 +51,7 @@ Alternatives
 * without LiveReload : `cd web/root/path && python -m http.server 8000` (python)
 
 License
-=======
+========
 
 * the project is under [unlicense](http://unlicense.org/)
 * the project (source and binaries) include [livereload.js], livereload.js is under MIT
